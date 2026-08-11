@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AgroCepte Gizlilik Politikası</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --accent: #2d6a4f;
+        --accent-soft: #e8f3ec;
+        --text: #1b1b1f;
+        --muted: #5c5f66;
+        --card: #ffffff;
+        --bg: #f7faf8;
+        --border: rgba(45, 106, 79, 0.1);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.65;
+      }
+
+      header {
+        background: linear-gradient(180deg, var(--accent-soft) 0%, var(--bg) 100%);
+        padding: 32px 20px 24px;
+        text-align: center;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 12px;
+      }
+
+      .brand-mark {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        background: var(--accent);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .brand-mark svg {
+        width: 26px;
+        height: 26px;
+        display: block;
+      }
+
+      .brand-name {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var(--accent);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(1.5rem, 4vw, 1.85rem);
+        color: var(--accent);
+        letter-spacing: -0.02em;
+      }
+
+      .intro {
+        max-width: 680px;
+        margin: 14px auto 0;
+        color: var(--muted);
+        font-size: 0.98rem;
+      }
+
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 24px 16px 48px;
+      }
+
+      section {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 20px 18px;
+        margin-bottom: 14px;
+        box-shadow: 0 4px 18px rgba(45, 106, 79, 0.04);
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: 1.05rem;
+        color: var(--accent);
+      }
+
+      p {
+        margin: 0 0 10px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 1.2rem;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      li {
+        margin-bottom: 6px;
+      }
+
+      li:last-child {
+        margin-bottom: 0;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      footer {
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.85rem;
+        margin-top: 8px;
+        padding-top: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="brand" aria-hidden="true">
+        <span class="brand-mark">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M32 14C24 22 18 30 18 38a14 14 0 1 0 28 0c0-8-6-16-14-24z" fill="#95D5B2"/>
+            <path d="M32 22v26M32 32c-4 2-7 5-9 9" stroke="#D8F3DC" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-name">AgroCepte</span>
+      </div>
+      <h1>AgroCepte Gizlilik Politikası</h1>
+      <p class="intro">
+        Bu politika, AgroCepte mobil uygulamasını kullanırken hangi bilgilerin işlendiğini,
+        hangi amaçlarla kullanıldığını ve haklarınızı açıklar.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>AgroCepte hakkında</h2>
+        <p>
+          AgroCepte, çiftçilerin ve üreticilerin tarla, sezon, gider, hasat, satış, görev ve
+          benzeri tarımsal kayıtlarını yönetmesine yardımcı olan bir mobil uygulamadır.
+          Uygulama öncelikle cihazınızda yerel olarak çalışır; isteğe bağlı olarak bulut
+          yedekleme sunulur.
+        </p>
+      </section>
+
+      <section>
+        <h2>Toplanan bilgiler</h2>
+        <p>
+          AgroCepte yalnızca uygulamanın işlevlerini sunmak için gerekli olan bilgileri işler.
+          Toplanan veya sizin girdiğiniz veriler aşağıdaki kategorilere ayrılır.
+        </p>
+      </section>
+
+      <section>
+        <h2>Hesap bilgileri</h2>
+        <p>Kayıt veya profil kullanımı sırasında sizden alınabilecek bilgiler:</p>
+        <ul>
+          <li>Kullanıcı adı (görünen ad)</li>
+          <li>Ad soyad</li>
+          <li>E-posta adresi</li>
+          <li>Telefon numarası</li>
+        </ul>
+        <p>
+          Supabase ile giriş yaptığınızda kimlik doğrulama bu hizmet üzerinden yapılır.
+          E-posta doğrulaması Supabase ayarlarına bağlı olarak istenebilir.
+        </p>
+      </section>
+
+      <section>
+        <h2>Konum verileri</h2>
+        <p>
+          Uygulama, yalnızca siz izin verdiğinizde cihaz konumunuza erişir. Konum; haritada tarla
+          sınırı çizmek, tarla konumunu göstermek ve koordinatlı tarlalar için hava durumu
+          sunmak amacıyla kullanılır.
+        </p>
+        <p>
+          Konum izni vermezseniz haritayı manuel kullanabilir; il, ilçe ve köy/mahalle gibi
+          metin bilgileri girebilirsiniz. Koordinatsız tarlalarda hava durumu gösterilmeyebilir.
+        </p>
+      </section>
+
+      <section>
+        <h2>Tarla, sezon ve tarımsal veriler</h2>
+        <p>Uygulamaya sizin girdiğiniz tarımsal kayıtlar cihazınızda saklanır. Örnekler:</p>
+        <ul>
+          <li>Tarla adı, il, ilçe, köy/mahalle, alan, ürün, ekim tarihi</li>
+          <li>Harita koordinatları ve tarla sınırları (çizdiyseniz veya parsel sorgusu ile aldıysanız)</li>
+          <li>Üretim sezonları, giderler, hasat ve satış kayıtları</li>
+          <li>Planlı tarla görevleri ve hatırlatmalar</li>
+          <li>Fiyat kayıtları ve uygulama içi notlar</li>
+        </ul>
+        <p>
+          Ada/parsel sorgusu kullanırsanız, sorgu için girdiğiniz il, ilçe, mahalle, ada ve parsel
+          bilgileri resmî TKGM parsel servislerine iletilir; yalnızca sorgu sonucunu almak için
+          kullanılır.
+        </p>
+      </section>
+
+      <section>
+        <h2>Verilerin hangi amaçlarla kullanıldığı</h2>
+        <ul>
+          <li>Hesabınızı oluşturmak, giriş yapmanızı sağlamak ve profilinizi göstermek</li>
+          <li>Tarla ve üretim kayıtlarınızı saklamak, listelemek ve raporlamak</li>
+          <li>Harita, parsel sorgulama ve konum tabanlı özellikleri sunmak</li>
+          <li>Hava durumu ve tarımsal uyarıları göstermek</li>
+          <li>Planlı görev hatırlatmaları göndermek (bildirim izni verdiyseniz)</li>
+          <li>İsteğe bağlı bulut yedekleme ve geri yükleme</li>
+          <li>Uygulamanın güvenliği ve kararlılığını korumak</li>
+        </ul>
+        <p>
+          AgroCepte, verilerinizi reklam profili oluşturmak, hedefli reklam göstermek veya
+          reklam amacıyla satmak için kullanmaz.
+        </p>
+      </section>
+
+      <section>
+        <h2>Supabase gibi uygulamanın çalışması için kullanılan hizmet sağlayıcılar</h2>
+        <ul>
+          <li>
+            <strong>Supabase</strong> — kullanıcı kimlik doğrulama, oturum yönetimi ve isteğe
+            bağlı bulut yedekleme. Yedekleme manuel olarak tetiklenir; tüm veri türleri için
+            otomatik sürekli senkron yapılmaz.
+          </li>
+          <li>
+            <strong>Google Maps Platform</strong> — Android ve iOS native sürümlerde harita
+            görüntüleme.
+          </li>
+          <li>
+            <strong>Open-Meteo</strong> — hava durumu verisi (tarla koordinatları ile sorgu).
+          </li>
+          <li>
+            <strong>TKGM (MEGSIS / parsel sorgu servisleri)</strong> — ada/parsel ve idari birim
+            sorguları.
+          </li>
+          <li>
+            <strong>Expo / EAS</strong> — uygulama geliştirme, derleme ve dağıtım altyapısı.
+          </li>
+        </ul>
+        <p>
+          Bu hizmet sağlayıcıların kendi gizlilik politikaları geçerli olabilir. AgroCepte,
+          yalnızca uygulamanın çalışması için gerekli veri aktarımını yapar.
+        </p>
+      </section>
+
+      <section>
+        <h2>Verilerin güvenliği</h2>
+        <p>
+          Yerel veriler cihazınızda (AsyncStorage) saklanır ve işletim sistemi uygulama
+          sandbox’ı içinde tutulur. Supabase ile yapılan iletişim HTTPS üzerinden şifrelenir.
+          Bulutta saklanan kayıtlar, Supabase Row Level Security (RLS) ile yalnızca ilgili
+          kullanıcı hesabına erişilebilir olacak şekilde yapılandırılır.
+        </p>
+        <p>
+          İnternet üzerinden hiçbir aktarım veya depolama yönteminin tamamen risksiz olduğu
+          garanti edilemez; makul teknik önlemler uygulanır.
+        </p>
+      </section>
+
+      <section>
+        <h2>Verilerin üçüncü kişilerle paylaşılması</h2>
+        <p>AgroCepte kişisel verilerinizi reklam amacıyla satmaz veya kiralamaz.</p>
+        <p>Veriler yalnızca şu durumlarda paylaşılabilir:</p>
+        <ul>
+          <li>Uygulamanın çalışması için gerekli hizmet sağlayıcılarla (yukarıda listelenenler)</li>
+          <li>Yasal yükümlülük veya yetkili makam talebi halinde</li>
+          <li>Açık rızanız veya talebiniz doğrultusunda</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Verilerin saklanması ve silinmesi</h2>
+        <p>
+          Verileriniz, siz silene veya hesabınızı kapatana kadar cihazınızda kalır. Buluta
+          yedeklediyseniz kopya Supabase’de de saklanır. Uygulamayı cihazınızdan kaldırmak
+          yerel verileri silebilir; buluttaki yedek için ayrıca silme talebi gerekebilir.
+        </p>
+        <p>
+          Yedekleme ve geri yükleme işlemleri uygulama içinden sizin kontrolünüzdedir.
+        </p>
+      </section>
+
+      <section>
+        <h2>Kullanıcının hesabını ve verilerini silme hakkı</h2>
+        <p>
+          Kişisel verilerinize erişim, düzeltme ve silme talebinde bulunabilirsiniz (6698
+          sayılı KVKK kapsamındaki haklarınız). Hesabınızı ve verilerinizi silmek için
+          aşağıdaki iletişim adresinden bize ulaşabilirsiniz.
+        </p>
+        <p>
+          Yerel verileri uygulamayı kaldırarak silebilirsiniz. Bulutta yedeklenmiş veriler
+          için silme talebi iletebilirsiniz.
+        </p>
+      </section>
+
+      <section>
+        <h2>Çocukların gizliliği</h2>
+        <p>
+          AgroCepte çocuklara yönelik bir uygulama değildir. Bilerek 13 yaş altındaki
+          kişilerden kişisel veri toplanmaz.
+        </p>
+      </section>
+
+      <section>
+        <h2>Gizlilik politikasındaki değişiklikler</h2>
+        <p>
+          Bu politika zaman zaman güncellenebilir. Önemli değişiklikler bu sayfada yayımlanır
+          ve “Son güncelleme” tarihi güncellenir. Uygulama içinde barındırılan politika
+          metni ile bu sayfa arasında fark olması halinde bu herkese açık sayfa esas alınabilir.
+        </p>
+      </section>
+
+      <section>
+        <h2>İletişim</h2>
+        <p>
+          Gizlilik, kişisel veriler veya hesap/veri silme talepleri için:
+        </p>
+        <p>
+          E-posta:
+          <a href="mailto:yusuferd45@gmail.com">yusuferd45@gmail.com</a>
+        </p>
+        <p>Uygulama: AgroCepte</p>
+      </section>
+
+      <footer>Son güncelleme: 11 Ağustos 2026</footer>
+    </main>
+  </body>
+</html>
