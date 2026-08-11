@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AgroCepte Hesap Silme</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --accent: #2d6a4f;
+        --accent-soft: #e8f3ec;
+        --text: #1b1b1f;
+        --muted: #5c5f66;
+        --card: #ffffff;
+        --bg: #f7faf8;
+        --border: rgba(45, 106, 79, 0.1);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.65;
+      }
+
+      header {
+        background: linear-gradient(180deg, var(--accent-soft) 0%, var(--bg) 100%);
+        padding: 32px 20px 24px;
+        text-align: center;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 12px;
+      }
+
+      .brand-mark {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        background: var(--accent);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .brand-mark svg {
+        width: 26px;
+        height: 26px;
+        display: block;
+      }
+
+      .brand-name {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var(--accent);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(1.5rem, 4vw, 1.85rem);
+        color: var(--accent);
+        letter-spacing: -0.02em;
+      }
+
+      .intro {
+        max-width: 680px;
+        margin: 14px auto 0;
+        color: var(--muted);
+        font-size: 0.98rem;
+      }
+
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 24px 16px 48px;
+      }
+
+      section {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 20px 18px;
+        margin-bottom: 14px;
+        box-shadow: 0 4px 18px rgba(45, 106, 79, 0.04);
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: 1.05rem;
+        color: var(--accent);
+      }
+
+      p {
+        margin: 0 0 10px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 1.2rem;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      li {
+        margin-bottom: 6px;
+      }
+
+      li:last-child {
+        margin-bottom: 0;
+      }
+
+      .highlight {
+        background: var(--accent-soft);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 14px 16px;
+        margin-top: 4px;
+      }
+
+      .highlight p {
+        color: var(--text);
+        margin-bottom: 8px;
+      }
+
+      .highlight p:last-child {
+        margin-bottom: 0;
+      }
+
+      .subject {
+        font-weight: 700;
+        color: var(--accent);
+      }
+
+      a {
+        color: var(--accent);
+        word-break: break-word;
+      }
+
+      footer {
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.85rem;
+        margin-top: 8px;
+        padding-top: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="brand" aria-hidden="true">
+        <span class="brand-mark">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M32 14C24 22 18 30 18 38a14 14 0 1 0 28 0c0-8-6-16-14-24z" fill="#95D5B2"/>
+            <path d="M32 22v26M32 32c-4 2-7 5-9 9" stroke="#D8F3DC" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-name">AgroCepte</span>
+      </div>
+      <h1>AgroCepte Hesap Silme</h1>
+      <p class="intro">
+        AgroCepte hesabınızı ve ilişkili kişisel verilerinizi silmek için aşağıdaki adımları izleyebilirsiniz.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Hesap silme talebi</h2>
+        <p>
+          AgroCepte kullanıcıları, hesaplarını ve ilişkili kişisel verilerini silme talebinde
+          bulunabilir. Talebinizi değerlendirmek için yalnızca hesabınızı doğrulamak amacıyla
+          gerekli minimum bilgileri isteyebiliriz; gereksiz kişisel bilgi talep etmeyiz.
+        </p>
+        <p>
+          <strong>Talebiniz doğrulandıktan sonra hesabınız ve silinmesi uygun olan ilişkili verileriniz silinir.</strong>
+        </p>
+      </section>
+
+      <section>
+        <h2>Nasıl talep gönderilir?</h2>
+        <p>
+          Hesap silme talebi için, AgroCepte’ye kayıtlı e-posta adresinizden aşağıdaki adrese
+          e-posta gönderin:
+        </p>
+        <div class="highlight">
+          <p>
+            E-posta:
+            <a href="mailto:yusuferd45@gmail.com?subject=AgroCepte%20Hesap%20Silme%20Talebi">yusuferd45@gmail.com</a>
+          </p>
+          <p>E-posta konusu: <span class="subject">AgroCepte Hesap Silme Talebi</span></p>
+        </div>
+        <p style="margin-top: 12px">
+          E-postanızda yalnızca hesabınızı doğrulamak için gerekli bilgileri paylaşmanız yeterlidir
+          (örneğin kayıtlı e-posta adresiniz). Ek kişisel bilgi göndermeniz gerekmez.
+        </p>
+      </section>
+
+      <section>
+        <h2>Silinecek veriler</h2>
+        <p>Talebiniz onaylandığında, aşağıdaki veriler silinmesi uygun olan kapsamda kaldırılır:</p>
+        <ul>
+          <li>Kullanıcı hesabı</li>
+          <li>Kullanıcı adı</li>
+          <li>Ad soyad</li>
+          <li>E-posta</li>
+          <li>Telefon</li>
+          <li>Kullanıcıya bağlı tarla, sezon ve uygulama verileri (Supabase’e yedeklenmiş kayıtlar dahil)</li>
+        </ul>
+        <p>
+          Cihazınızda kalan yerel uygulama verilerini silmek için uygulamayı cihazınızdan
+          kaldırabilirsiniz.
+        </p>
+      </section>
+
+      <section>
+        <h2>Saklanabilecek veriler</h2>
+        <p>
+          Yasal yükümlülük, güvenlik, dolandırıcılık önleme veya uyuşmazlık çözümü gibi zorunlu
+          hallerde, yalnızca gerekli olan ve süresi sınırlı kayıtlar tutulabilir. AgroCepte,
+          reklam veya profil oluşturma amacıyla veri saklamaz.
+        </p>
+      </section>
+
+      <section>
+        <h2>İşlem süresi</h2>
+        <p>
+          Talebiniz alındıktan sonra kimlik doğrulaması yapılır ve silme işlemi makul süre
+          içinde tamamlanır. Sonuç, talep ettiğiniz e-posta adresine bildirilir.
+        </p>
+      </section>
+
+      <footer>Son güncelleme: 11 Ağustos 2026</footer>
+    </main>
+  </body>
+</html>
